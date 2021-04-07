@@ -48,7 +48,7 @@ class Hummingbird(Bird):
         super().fly()
         print(f"{self.name} can also fly backward.")
 
-P = Pigeon("sabin")
+p = Pigeon("sabin")
 p.fly()
 
 o = Osctich("monstor")
@@ -56,4 +56,6 @@ o.fly()
 
 h = Hummingbird("sujan")
 h.fly()
-    
+
+p = Pigeon("saugat")
+p.fly()
